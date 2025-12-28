@@ -13,6 +13,7 @@ This repository is a small React + Vite demo that displays a simple product list
 - Project root: `pre_react`
 - Main entry: [src/main.jsx](src/main.jsx)
 - App component: [src/App.jsx](src/App.jsx)
+ - Live demo: [shopshowcasereact.vercel.app](https://shopshowcasereact.vercel.app)
 
 ## Features
 
