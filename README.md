@@ -12,7 +12,30 @@ This repository is a small React + Vite demo that displays a simple product list
 - Project root: `pre_react`
 - Main entry: [src/main.jsx](src/main.jsx)
 - App component: [src/App.jsx](src/App.jsx)
- - Live demo: [shopshowcasereact.vercel.app](https://shopshowcasereact.vercel.app)
+
+
+## Features
+
+- Minimal React app scaffolded with Vite.
+- Component hierarchy: `App` → `Products` → `Price`.
+- Simple CSS styling in `src/*.css`.
+- Scripts for dev, build, preview and lint.
+
+## Tech Stack
+
+- React 19
+- Vite (dev server and build)
+# shop-showcase-react — Product Showcase (Demo)
+
+This repository is a small React + Vite demo that displays a simple product listing UI (product cards with old/new prices). It's intended as a lightweight demo for learning component composition, props, and styling in React.
+
+**Live demo:** https://shopshowcasereact.vercel.app
+
+## Quick links
+
+- Project root: `pre_react`
+- Main entry: [src/main.jsx](src/main.jsx)
+- App component: [src/App.jsx](src/App.jsx)
 
 ## Features
 
@@ -41,13 +64,13 @@ This repository is a small React + Vite demo that displays a simple product list
 
 - `src/main.jsx` — mounts the React app into the DOM element with id `root` using `createRoot`.
 - `src/App.jsx` — `App` component:
-	- Defines layout styles for the product grid.
-	- Renders a header and multiple `Products` components, passing `title` and `idx` props.
+  - Defines layout styles for the product grid.
+  - Renders a header and multiple `Products` components, passing `title` and `idx` props.
 - `src/products.jsx` — `Products({ title, idx })`:
-	- Holds static arrays for `oldPrice`, `newPrice`, and `desc`.
-	- Uses `idx` to select the correct data and renders `Price`.
+  - Holds static arrays for `oldPrice`, `newPrice`, and `desc`.
+  - Uses `idx` to select the correct data and renders `Price`.
 - `src/price.jsx` — `Price({ oldPrice, newPrice })`:
-	- Displays the old price (struck-through) and a highlighted new price.
+  - Displays the old price (struck-through) and a highlighted new price.
 
 ## How It Works
 
@@ -89,5 +112,7 @@ npm run preview
 npm run lint
 ```
 
-#THANK YOU
+---
+
+Thank you!
 
