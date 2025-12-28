@@ -90,8 +90,4 @@ npm run lint
 ```
 
 #THANK YOU
-- Rename the repository to `shop-showcase-react` (I will update `README.md` and suggest a git rename workflow).
-- Convert static arrays into a JSON data file and refactor `App` to map over it.
-- Add product images and links; enhance styling.
 
-Tell me which follow-up you'd like next.
