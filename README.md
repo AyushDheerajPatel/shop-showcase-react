@@ -89,26 +89,7 @@ npm run preview
 npm run lint
 ```
 
-## Common Edits
-
-- Add/update a product: edit the arrays in `src/products.jsx`, or refactor `App` to map over a data array.
-- Change styles: edit `src/App.css`, `src/products.css`, or `src/index.css`.
-
-## Contributing
-
-1. Fork and clone the repo.
-2. Create a feature branch.
-3. Make changes and run `npm run lint` and `npm run dev` to verify.
-4. Open a pull request with a clear description.
-
-## License
-
-This demo project is provided as-is. Add a license file if you plan to reuse or publish it.
-
----
-
-If you want, I can also:
-
+#THANK YOU
 - Rename the repository to `shop-showcase-react` (I will update `README.md` and suggest a git rename workflow).
 - Convert static arrays into a JSON data file and refactor `App` to map over it.
 - Add product images and links; enhance styling.
